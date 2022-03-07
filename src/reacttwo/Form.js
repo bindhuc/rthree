@@ -55,17 +55,17 @@ import "./style.css"
              <form>
                  <div>
              <label for="name" className='cont'>Name :</label>
-             <input className="hold" type="text" id="name" name="name" placeholder="name" onChange={this.handleChange} value={this.state.name} />
+             <input className="hold" type="text" id="name" name="name"  onChange={this.handleChange} value={this.state.name} />
                  </div>
 
              <div>
              <label for="dept" className='cont'>Dept :</label>
-               <input className="hold"  type="text" id="dept" name="dept" placeholder="dept" onChange={this.handleChange}  value={this.state.dept} />
+               <input className="hold"  type="text" id="dept" name="dept"  onChange={this.handleChange}  value={this.state.dept} />
              </div>
       
              <div>
              <label for="rating" className='cont'>Rating :</label>
-             <input className="hold" type="text" id="rating" name="rating" placeholder="rating" onChange={this.handleChange}  value={this.state.rating} />
+             <input className="hold" type="text" id="rating" name="rating"  onChange={this.handleChange}  value={this.state.rating} />
              </div>
              <button className='btn' onClick={this.handleSubmit}>Submit</button>
                     </form>

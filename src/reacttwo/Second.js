@@ -12,7 +12,7 @@ export default class Second extends Component {
              {this.props.feedback.map((item,index)=>{
                 return(
                <div key={index} className='container4' >
-               Name : {item.name} | Department :  {item.dept} | Rating {item.rating}
+               Name : {item.name} || Department :  {item.dept} || Rating {item.rating}
       
               </div>
                 ) 
